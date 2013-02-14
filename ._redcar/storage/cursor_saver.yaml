@@ -6,9 +6,6 @@ cursor_positions:
   - :path: app/helpers/products_helper.rb
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:24:57.388000 +09:00
-  - :path: app/models/product.rb
-    :cursor_offset: 6
-    :timestamp: 2013-02-13 17:24:56.482000 +09:00
   - :path: app/views/products/new.html.erb
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:24:57.107000 +09:00
@@ -27,9 +24,6 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 239
     :timestamp: 2013-02-13 18:00:42.227000 +09:00
-  - :path: app/views/products/index.html.erb
-    :cursor_offset: 552
-    :timestamp: 2013-02-14 10:10:16.589000 +09:00
   - :path: Rakefile
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:19:06.210000 +09:00
@@ -39,4 +33,19 @@ cursor_positions:
   - :path: .gitignore
     :cursor_offset: 431
     :timestamp: 2013-02-14 11:20:22.351000 +09:00
+  - :path: app/views/products/index.html.erb
+    :cursor_offset: 26
+    :timestamp: 2013-02-14 11:22:00.732000 +09:00
+  - :path: app/models/product.rb
+    :cursor_offset: 360
+    :timestamp: 2013-02-14 11:50:26.794000 +09:00
+  - :path: test/functional/products_controller_test.rb
+    :cursor_offset: 943
+    :timestamp: 2013-02-14 11:54:25.429000 +09:00
+  - :path: test/fixtures/products.yml
+    :cursor_offset: 531
+    :timestamp: 2013-02-14 13:28:57.885000 +09:00
+  - :path: app/controllers/products_controller.rb
+    :cursor_offset: 237
+    :timestamp: 2013-02-13 17:24:56.841000 +09:00
 files_to_retain: 0
