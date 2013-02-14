@@ -1,0 +1,4 @@
+--- 
+open_files: 
+  - app/views/layouts/application.html.erb
+  - app/assets/stylesheets/products.css.scss
