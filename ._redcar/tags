@@ -1,4 +1,4 @@
-1360818230
+1360824348
 Application	C:/RubyWorkspace/depot/config/application.rb	  class Application 
 ApplicationController	C:/RubyWorkspace/depot/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RubyWorkspace/depot/app/helpers/application_helper.rb	module ApplicationHelper
@@ -11,12 +11,17 @@ ProductsController	C:/RubyWorkspace/depot/app/controllers/products_controller.rb
 ProductsControllerTest	C:/RubyWorkspace/depot/test/functional/products_controller_test.rb	class ProductsControllerTest 
 ProductsHelper	C:/RubyWorkspace/depot/app/helpers/products_helper.rb	module ProductsHelper
 ProductsHelperTest	C:/RubyWorkspace/depot/test/unit/helpers/products_helper_test.rb	class ProductsHelperTest 
+StoreController	C:/RubyWorkspace/depot/app/controllers/store_controller.rb	class StoreController 
+StoreControllerTest	C:/RubyWorkspace/depot/test/functional/store_controller_test.rb	class StoreControllerTest 
+StoreHelper	C:/RubyWorkspace/depot/app/helpers/store_helper.rb	module StoreHelper
+StoreHelperTest	C:/RubyWorkspace/depot/test/unit/helpers/store_helper_test.rb	class StoreHelperTest 
 TestCase	C:/RubyWorkspace/depot/test/test_helper.rb	class ActiveSupport::TestCase
 change	C:/RubyWorkspace/depot/db/migrate/20130213082456_create_products.rb	  def change
 create	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def create
 destroy	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def destroy
 edit	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def edit
 index	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def index
+index	C:/RubyWorkspace/depot/app/controllers/store_controller.rb	  def index
 new	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def new
 new_product	C:/RubyWorkspace/depot/test/unit/product_test.rb	  def new_product(image_url)
 show	C:/RubyWorkspace/depot/app/controllers/products_controller.rb	  def show
