@@ -15,9 +15,6 @@ cursor_positions:
   - :path: db/seeds.rb
     :cursor_offset: 2122
     :timestamp: 2013-02-13 17:56:58.048000 +09:00
-  - :path: app/views/products/show.html.erb
-    :cursor_offset: 203
-    :timestamp: 2013-02-13 17:24:57.091000 +09:00
   - :path: app/assets/stylesheets/products.css.scss
     :cursor_offset: 317
     :timestamp: 2013-02-14 09:59:48.724000 +09:00
@@ -27,9 +24,6 @@ cursor_positions:
   - :path: config.ru
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:19:06.226000 +09:00
-  - :path: app/views/products/index.html.erb
-    :cursor_offset: 26
-    :timestamp: 2013-02-14 11:22:00.732000 +09:00
   - :path: test/fixtures/products.yml
     :cursor_offset: 531
     :timestamp: 2013-02-14 13:28:57.885000 +09:00
@@ -45,39 +39,21 @@ cursor_positions:
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:19:06.304000 +09:00
-  - :path: app/assets/stylesheets/layout.css.scss
-    :cursor_offset: 149
-    :timestamp: 2013-02-14 15:08:49.892000 +09:00
-  - :path: test/functional/store_controller_test.rb
-    :cursor_offset: 333
-    :timestamp: 2013-02-14 15:40:50.266000 +09:00
   - :path: db/migrate/20130214065907_create_line_items.rb
     :cursor_offset: 188
     :timestamp: 2013-02-14 15:59:07.324000 +09:00
   - :path: db/migrate/20130214065111_create_carts.rb
     :cursor_offset: 0
     :timestamp: 2013-02-14 15:51:11.335000 +09:00
-  - :path: app/controllers/store_controller.rb
-    :cursor_offset: 95
-    :timestamp: 2013-02-14 14:32:05.655000 +09:00
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:19:06.460000 +09:00
-  - :path: config/routes.rb
-    :cursor_offset: 445
-    :timestamp: 2013-02-14 15:59:07.480000 +09:00
   - :path: config/environments/test.rb
     :cursor_offset: 0
     :timestamp: 2013-02-13 17:19:06.570000 +09:00
-  - :path: app/views/store/index.html.erb
-    :cursor_offset: 414
-    :timestamp: 2013-02-14 16:21:21.807000 +09:00
   - :path: app/assets/stylesheets/store.css.scss
     :cursor_offset: 391
     :timestamp: 2013-02-14 16:22:16.508000 +09:00
-  - :path: test/functional/line_items_controller_test.rb
-    :cursor_offset: 449
-    :timestamp: 2013-02-14 16:40:27.064000 +09:00
   - :path: test/functional/products_controller_test.rb
     :cursor_offset: 429
     :timestamp: 2013-02-14 11:54:25.429000 +09:00
@@ -95,34 +71,91 @@ cursor_positions:
     :timestamp: 2013-02-14 17:28:49.386000 +09:00
     :selection_offset: 167537
     :block_selection_mode: false
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 443
-    :timestamp: 2013-02-14 17:18:08.091000 +09:00
   - :path: db/migrate/20130214080412_combine_items_in_cart.rb
     :cursor_offset: 847
     :timestamp: 2013-02-14 17:10:28.601000 +09:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 110
-    :timestamp: 2013-02-14 15:54:09.926000 +09:00
   - :path: test/functional/carts_controller_test.rb
     :cursor_offset: 669
     :timestamp: 2013-02-14 17:40:54.383000 +09:00
-  - :path: app/controllers/carts_controller.rb
-    :cursor_offset: 1853
-    :timestamp: 2013-02-14 17:34:32.815000 +09:00
   - :path: app/models/line_item.rb
     :cursor_offset: 126
     :timestamp: 2013-02-14 17:51:09.442000 +09:00
-  - :path: app/views/carts/show.html.erb
-    :cursor_offset: 479
-    :timestamp: 2013-02-14 17:50:23.386000 +09:00
-  - :path: app/controllers/line_items_controller.rb
-    :cursor_offset: 1079
-    :timestamp: 2013-02-14 17:45:22.646000 +09:00
   - :path: app/models/cart.rb
     :cursor_offset: 397
     :timestamp: 2013-02-14 17:52:24.482000 +09:00
+  - :path: app/controllers/store_controller.rb
+    :cursor_offset: 130
+    :timestamp: 2013-02-15 10:50:29.756000 +09:00
+  - :path: app/controllers/line_items_controller.rb
+    :cursor_offset: 322
+    :timestamp: 2013-02-15 11:24:08.469000 +09:00
+  - :path: app/assets/stylesheets/layout.css.scss
+    :cursor_offset: 616
+    :timestamp: 2013-02-15 10:53:57.234000 +09:00
   - :path: app/assets/stylesheets/carts.css.scss
-    :cursor_offset: 378
-    :timestamp: 2013-02-14 17:56:46.451000 +09:00
+    :cursor_offset: 196
+    :timestamp: 2013-02-15 10:51:56.976000 +09:00
+  - :path: app/views/store/index.html.erb
+    :cursor_offset: 425
+    :timestamp: 2013-02-15 10:58:09.765000 +09:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 562
+    :timestamp: 2013-02-15 12:11:58.266000 +09:00
+  - :path: app/views/line_items/_line_item.html.erb
+    :cursor_offset: 20
+    :timestamp: 2013-02-15 11:29:10.999000 +09:00
+  - :path: app/views/carts/_cart.html.erb
+    :cursor_offset: 301
+    :timestamp: 2013-02-15 12:00:50.680000 +09:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 198
+    :timestamp: 2013-02-15 11:58:08.153000 +09:00
+  - :path: app/controllers/carts_controller.rb
+    :cursor_offset: 2008
+    :timestamp: 2013-02-15 11:59:17.901000 +09:00
+  - :path: app/assets/javascripts/store.js.coffee
+    :cursor_offset: 315
+    :timestamp: 2013-02-15 12:07:07.114000 +09:00
+  - :path: config/routes.rb
+    :cursor_offset: 1619
+    :timestamp: 2013-02-14 15:59:07.480000 +09:00
+  - :path: app/views/carts/show.html.erb
+    :cursor_offset: 80
+    :timestamp: 2013-02-15 10:48:44.175000 +09:00
+  - :path: test/functional/line_items_controller_test.rb
+    :cursor_offset: 699
+    :timestamp: 2013-02-15 13:24:08.116000 +09:00
+  - :path: app/views/carts/index.html.erb
+    :cursor_offset: 89
+    :timestamp: 2013-02-14 15:51:11.974000 +09:00
+  - :path: app/views/line_items/index.html.erb
+    :cursor_offset: 490
+    :timestamp: 2013-02-14 15:59:07.776000 +09:00
+  - :path: app/views/products/index.html.erb
+    :cursor_offset: 26
+    :timestamp: 2013-02-14 11:22:00.732000 +09:00
+  - :path: app/views/line_items/show.html.erb
+    :cursor_offset: 139
+    :timestamp: 2013-02-15 13:33:31.185000 +09:00
+  - :path: app/views/products/show.html.erb
+    :cursor_offset: 345
+    :timestamp: 2013-02-13 17:24:57.091000 +09:00
+  - :path: app/assets/javascripts/line_items.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2013-02-14 15:59:08.244000 +09:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 110
+    :timestamp: 2013-02-14 15:54:09.926000 +09:00
+  - :path: test/functional/store_controller_test.rb
+    :cursor_offset: 499
+    :timestamp: 2013-02-15 13:36:55.544000 +09:00
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 620
+    :timestamp: 2013-02-15 11:23:32.932000 +09:00
+  - :path: app/assets/javascripts/carts.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2013-02-14 15:51:12.473000 +09:00
+  - :path: app/views/line_items/create.js.erb
+    :cursor_offset: 214
+    :timestamp: 2013-02-15 11:36:27.867000 +09:00
 files_to_retain: 0
