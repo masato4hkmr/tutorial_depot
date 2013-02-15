@@ -15,6 +15,10 @@ Depot::Application.configure do
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
+  
+  # 2013-02-15 add oosuga start
+  config.action_mailer.delivery_method = :test
+  # 2013-02-15 add oosuga end
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
