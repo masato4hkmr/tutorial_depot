@@ -1,5 +1,7 @@
 #encoding: utf-8
 class OrdersController < ApplicationController
+  skip_before_filter :authorize, only: [:new, :create]
+
   # GET /orders
   # GET /orders.json
   def index
@@ -57,7 +59,7 @@ class OrdersController < ApplicationController
 
         OrderNotifier.received(@order).deliver
 
-        format.html { redirect_to store_url, notice: 'ご注文ありがとうございます' }
+        format.html { redirect_to store_url, notice: I18n.t('.thanks') }
         format.json { render json: @order, status: :created, location: @order }
       else
         @cart = current_cart
