@@ -171,18 +171,12 @@ cursor_positions:
   - :path: test/functional/orders_controller_test.rb
     :cursor_offset: 691
     :timestamp: 2013-02-15 18:02:38.622000 +09:00
-  - :path: app/models/order.rb
-    :cursor_offset: 341
-    :timestamp: 2013-02-15 15:22:54.797000 +09:00
   - :path: test/fixtures/orders.yml
     :cursor_offset: 130
     :timestamp: 2013-02-15 18:03:44.629000 +09:00
   - :path: test/integration/user_stories_test.rb
     :cursor_offset: 1536
     :timestamp: 2013-02-15 18:24:50.204000 +09:00
-  - :path: Gemfile
-    :cursor_offset: 526
-    :timestamp: 2013-02-19 14:33:36.237000 +09:00
   - :path: app/views/users/index.html.erb
     :cursor_offset: 116
     :timestamp: 2013-02-19 14:20:23.669000 +09:00
@@ -233,9 +227,6 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 849
     :timestamp: 2013-02-19 16:12:48.224000 +09:00
-  - :path: config/locales/en.yml
-    :cursor_offset: 386
-    :timestamp: 2013-02-19 16:18:32.589000 +09:00
   - :path: app/views/store/index.html.erb
     :cursor_offset: 82
     :timestamp: 2013-02-19 16:21:19.991000 +09:00
@@ -266,4 +257,19 @@ cursor_positions:
   - :path: app/assets/stylesheets/layout.css.scss
     :cursor_offset: 1542
     :timestamp: 2013-02-19 17:02:08.973000 +09:00
+  - :path: Gemfile.lock
+    :cursor_offset: 0
+    :timestamp: 2013-02-19 14:34:02.825000 +09:00
+  - :path: app/models/order.rb
+    :cursor_offset: 137
+    :timestamp: 2013-02-19 17:13:36.953000 +09:00
+  - :path: config/locales/es.yml
+    :cursor_offset: 952
+    :timestamp: 2013-02-19 17:12:47.510000 +09:00
+  - :path: config/locales/en.yml
+    :cursor_offset: 1042
+    :timestamp: 2013-02-19 17:12:51.447000 +09:00
+  - :path: Gemfile
+    :cursor_offset: 31
+    :timestamp: 2013-02-20 18:43:02.491000 +09:00
 files_to_retain: 0
