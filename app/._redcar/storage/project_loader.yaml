@@ -1,8 +1,0 @@
---- 
-open_files: 
-  - controllers/orders_controller.rb
-  - models/order.rb
-  - views/line_items/create.js.erb
-  - controllers/products_controller.rb
-  - views/products/who_bought.atom.builder
-  - models/product.rb
